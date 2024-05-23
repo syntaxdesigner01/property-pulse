@@ -1,5 +1,6 @@
-import '@/asserts/styles/global.css'
-
+import '../asserts/styles/global.css'
+import '../Components/Navbar'
+import Navbar from '../Components/Navbar'
 export const metadata = {
     title:'Property plues| Rental services',
     description: 'A rental services app',
@@ -10,8 +11,8 @@ const MainLayout = ({children}) => {
   return (
    <html lang="en">
      <body>
-        
-     <div>{children}</div>
+        <Navbar/>
+     <main>{children}</main>
      </body>
    </html>
   )
