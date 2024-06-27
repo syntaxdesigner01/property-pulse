@@ -3,7 +3,7 @@ import properties from "../../utils/properties.json";
 import PropertyCard from "./../Components/PropertyCard";
 
 const PropertiesPage = () => {
-  console.log(properties);
+  // console.log(properties);
   return (
     <section class="px-4 py-6">
       <div class="container-xl lg:container m-auto px-4 py-6">
